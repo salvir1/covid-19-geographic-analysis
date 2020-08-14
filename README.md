@@ -1,7 +1,6 @@
 # covid-hiv-geo-analysis
 
-[]('img/hiv_prev_map.png')
-<img align="right" src="img/hiv_prev_map.png" width='500' height='auto' ></img>
+<img align="right" src="img/prediction-scatterplot.png" width='500' height='auto' ></img>
 
 ## Overview
 This repo is an ongoing project to explore the commonalities between two major epidemics affecting the United States--the HIV epidemic and the COVID epidemic. While the two diseases are very different in terms of transmission modalities, their geographic distributions appear to overlap. Can useful information be obtained by understanding if, and why, these geographic distributions overlap? 
@@ -32,18 +31,83 @@ Data on HIV and COVID infection rates were obtained from the following sources:
 - Fortunately, HIV is much less common than COVID, so incidence numbers are smaller--even nonexistent (or at least not reported) in many counties. 
 - Spatial maps and a scatter matrix were created to compare COVID incidence rates by county to HIV prevalence by county. The spatial maps appear to show commonality of the infection distributions, but the scatter matrix demonstrates that the regional strength of signal may not translate down to the county level. I.e. while the map suggests a strong geographic trend, the trend may not be as apparent at the county level. Perhaps there's too much point variation.
 - It was hypothesized that this problem could be addressed by regionalizing the data by creating KNN Regressor predictions. 
-- Maps can be accessed by clicking on the links below.
-- [HIV Prevalence Spatial Map]('img/hiv_prev_map.html')
-- [COVID Incidence Spatial Map]('img/July_31_covid_map.html')
+<!-- - Maps can be accessed by clicking on the links below. -->
+- HIV prevalence by county (active plotly maps aren't available for markdown)
+<img align="right" src="img/hiv_prev_map.png" width='400' height='auto' ></img>
+
+<pre>
 
 
+
+
+
+
+
+
+
+
+</pre>  
+- COVID incidence (as of July 31, 2020) by county
+<img align="left" src="img/July_31_covid_map.png" width='400' height='auto' ></img>
+
+<!-- - [HIV Prevalence Spatial Map]('img/hiv_prev_map.png')
+- [COVID Incidence Spatial Map]('img/July_31_covid_map.png') -->
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
 ## Results
 - KNN Regressor models were created to create an epidemic predictor from the covid data and separately for the hiv data. A KNN of 10 was used to 'regionalize' the hiv data and the covid data.
-- These KNN prediction mappings appear to show a much stronger regional pattern. The R^2 for these maps is .65, suggesting a moderate correlation.
-- Prediction maps can be accessed by clicking on the links below.
-- [HIV Prediction Map]('img/hiv_epidemic_prediction.html')
+- These KNN prediction mappings appear to show a much stronger regional pattern. The R^2 for these maps is .65, suggesting a moderate correlation (see graph at top of page).
+- Regionalized HIV prevalence
+<img align="right" src="img/hiv_epidemic_prediction.png" width='400' height='auto' ></img>
+<pre>
+
+
+
+
+
+
+
+
+
+
+</pre>  
+- Regionalized COVID incidence
+<img align="left" src="img/covid_epidemic_prediction.png" width='400' height='auto' ></img>
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+<!-- - Prediction maps can be accessed by clicking on the links below. -->
+<!-- <img align="right" src="img/hiv_prev_map.png" width='500' height='auto' ></img>
+<img align="right" src="img/July_31_covid_map.png" width='500' height='auto' ></img> -->
+
+
+<!-- - [HIV Prediction Map]('img/hiv_epidemic_prediction.html')
 - [COVID Prediction Map]('img/covid_epidemic_prediction.html')
-- [Scatter Matrix]('img/prediction-scatterplot.png')
+- [Scatter Matrix]('img/prediction-scatterplot.png') -->
 
 ## Future Directions
 - This project can go in one of several directions.
