@@ -5,7 +5,7 @@
 ## Overview
 This repo is an ongoing project to explore the commonalities between two major epidemics affecting the United States--the HIV epidemic and the COVID epidemic. While the two diseases are very different in terms of transmission modalities, their geographic distributions appear to overlap. Can useful information be obtained by understanding if, and why, these geographic distributions overlap? 
 
-This is an ongoing project. New information will be added soon. While this information is public, please be respectful of the origination of these ideas within this repo and their status as a work in process.
+This is an ongoing project. New information will be added soon. Please recognize that the ideas and reasearch in this repo are a work in process.
 
 ## Goals
 
