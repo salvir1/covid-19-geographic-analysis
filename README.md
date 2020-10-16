@@ -48,22 +48,22 @@ For the US data, state groupings were created for outbreaks of similar scale and
 Case and death data was smoothed using a 14 day simple moving average. A larger smoothing window was chosen since the daily reports are quite noisy.
 ### Findings and comments
 
-<img align="center" src="img/COVID-cases-by-outbreak-groupings.png" width='800' height='auto' ></img>
+<img align="center" src="img/COVID-cases-by-outbreak-groupings.png" width='1000' height='auto' ></img>
 This chart reveals a number of interesting patterns.
 > - The outbreak groupings are distinct. 
 > - While the spring outbreak was occurring, infection rate was surprisingly uniform among the other groups.
 > - The summer outbreak ramped up quickly. The fall outbreak group and no outbreak group maintained comparable infection rates even as the the rates crept up (perhaps due to states easing restrictions en masse). The reported infection rate for the summer outbreak group suprassed that of the spring outbreak. This could be explained in part by increased testing.
 > - The fall outbreak ramped up quickly as well. It appears to be headed towards a higher peak than either of the two previous outbreaks. Fortunately, this outbreak is affecting a much smaller portion of the US population than the previous two at this time.
-<img align="center" src="img/COVID-deaths-by-outbreak-groupings.png" width='800' height='auto' ></img>
+<img align="center" src="img/COVID-deaths-by-outbreak-groupings.png" width='1000' height='auto' ></img>
 Deaths are the most important measure of severity of the outbreak.
 > - Deaths per 100,000 was much smaller for the second outbreak than the first.
 > - It's too early to say what the death rate will look like for the third outbreak. Recent news reports--which are not yet reflected in the data--suggest the death rate may end up being worse. Over the past several days, the Dakotas reported death rates exceeding 0.5 people per 100,000.
-<img align="center" src="img/COVID-case-fatality-by-outbreak-groupings.png" width='800' height='auto' ></img>
+<img align="center" src="img/COVID-case-fatality-by-outbreak-groupings.png" width='1000' height='auto' ></img>
 The reported death time series was shifted forward by 14 days to synchronize up better with the case time series so that an accurate case fatality ratio could be calculated.
 What are the takeaways from this chart?
 > - The case fatality ratio has been reduced significantly from the early days of the pandemic. This can probably be attributed to several factors. For one, much more testing is being done, so fewer cases are being missed. For two, the medical community knows much more about how to care for patients with the disease, which has probably led to better outcomes. 
 > - The case fatality ration hasn't seen marked changes since the numbers settled down as we entered the summer months. There's no strong indication that summer's crowded hospitals had a major impact on case fatality--at least in this slice of the data.
-<img align="center" src="img/self-reported-mask-usage.png" width='800' height='auto' ></img>
+<img align="center" src="img/self-reported-mask-usage.png" width='1000' height='auto' ></img>
 Masks are touted as an easy preventative measure. The Imperial College of London in conjunction with YouGov Plc have been conducting an ongoing large-scale global study of how people are responding to the COVID-19 situation. They have conducted more than 30,000 surveys in the US alone. Among other things, these surveys collect data on self-reported mask usage. The state groupings that were applied above were used to group the mask survey data.
 > - People surveyed in the spring outbreak states reported the highest level of mask usage across all months. 
 > - People surveyed in the summer outbreak states and no outbreak states reported very similar mask usage over time.
