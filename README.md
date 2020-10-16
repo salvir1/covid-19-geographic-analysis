@@ -1,18 +1,18 @@
-# covid-hiv-geo-analysis
+# covid-hiv-geographic-analysis
 
 <img align="right" src="img/prediction-scatterplot.png" width='500' height='auto' ></img>
 
 ## Overview
-This repo is an ongoing project to explore the commonalities between two major epidemics affecting the United States--the HIV epidemic and the COVID epidemic. While the two diseases are very different in terms of transmission modalities, their geographic distributions appear to overlap. Can useful information be obtained by understanding if, and why, these geographic distributions overlap? 
+This repo is an ongoing project to explore the geographic patterns in the COVID-19 pandemic with particular focus on the US. The goal is to identify meaningful observations that could potentially be used by entities that are seeking to control and/or respond to the crisis.
 
 This is an ongoing project. New information will be added soon. Please recognize that the ideas and reasearch in this repo are a work in process.
 
 ## Goals
 
 The goals of this project are
-> - To quantify the overlap of the geographic distributions of the HIV epidemic and the COVID epidemic
-> - To explore differences in the delivery of public health where the epidemics are most severe versus other parts of the country
-> - To evaluate if and how public officials communicate differenlty about epidemics in different parts of the country
+> - To look for meaningful patterns in the geogrpahic progression of the COVID-19 pandemic, especially in the US
+> - To work with various EDA and data visualization tools and techniques
+> - This project began in mid August. An early goal was to compare the geographic distribution of HIV to the geographic distribution of COVID-19 at that time since the distributions were similar. At this time, COVID-19 had eased up in the northeast and was in the midst of a peak in the southeast, which is one of the primary areas where HIV is most prevalent. These results were kept in the Github repo as a timepoint reference even though the geographic distribution of COVID-19 has since evolved.
 
 ## Tools and techniques used in this project
 - **Tools**
@@ -20,10 +20,15 @@ The goals of this project are
 - **Visualization**
 > - Plotly, Matplotlib
 - **Techniques**
-> - Supervised learning model development, spatial mapping
+> - Supervised learning model development, spatial mapping, simple moving average
 
-## Data and EDA
-Data on HIV and COVID infection rates were obtained from the following sources:
+## COVID-19 trends
+
+## HIV prevalence/COVID-19 incidence comparison
+
+### Data and EDA
+
+For the HIV prevalence/COVID-19 incidence comparison, data on HIV and COVID infection rates were obtained from the following sources:
 - https://github.com/nytimes/covid-19-data (COVID incidence by county data) 
 - https://gis.cdc.gov/grasp/nchhstpatlas/main.html (HIV incidence/prevalence) 
 - EDA of the HIV incidence rates (number of new infections in a given year) revealed a lot of missing data at the county level, and low numbers for many other counties. A decision was made to use prevalence as the comparative marker of the disease. Prevalence--while not perfect--is the most accurate measure of the penetration of the disease. The downsides are that it doesn't necessarily indicate where the disease was contracted since people are mobile. 
@@ -67,7 +72,7 @@ Data on HIV and COVID infection rates were obtained from the following sources:
 
 
 </pre>
-## Results
+### Results
 - KNN Regressor models were created to create an epidemic predictor from the covid data and separately for the hiv data. A KNN of 10 was used to 'regionalize' the hiv data and the covid data.
 - These KNN prediction mappings appear to show a much stronger regional pattern. The R^2 for these maps is .65, suggesting a moderate correlation (see graph at top of page).
 - Regionalized HIV prevalence
@@ -108,12 +113,6 @@ Data on HIV and COVID infection rates were obtained from the following sources:
 <!-- - [HIV Prediction Map]('img/hiv_epidemic_prediction.html')
 - [COVID Prediction Map]('img/covid_epidemic_prediction.html')
 - [Scatter Matrix]('img/prediction-scatterplot.png') -->
-
-## Future Directions
-- This project can go in one of several directions.
-> - One possibility is to explore the financial impact of the disease on a regional basis. The two diseases evaluated here are widespread and costly. The annual cost to treat someone with HIV is estimated to be as high as $75,000. The economic impact of COVID is quite apparent. The treatment cost for a hospitalized COVID patient is high. And then there's the derivative costs to the economy more broadly. Predictive models could be created to forecast the regional cost of these and future epidemics.
-> - What factors might be contributing to the overlapping spatial distributions of these two infectious diseases? It may be coincidence. Or any number of factors might be at play ranging including uncontrollable factors such as weather or socioeconomic variation. One area for research is public health. Three areas that may merit further exploration are: differences in public health resource allocation; differences in how public officials talk about public health; and differences in how the public views public health.
-
 
 ## Contributors
 [Rob Salvino](https://github.com/salvir1)
