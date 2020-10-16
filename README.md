@@ -45,23 +45,24 @@ For the US data, state groupings were created for outbreaks of similar scale and
 > - Avoided classification in one of the other outbreak categories
 > - About 160M people are in this group
 
-Case and death data was smoothed using a 14 day simple moving average. A larger smoothing window was chosen since the daily reports are quite noisy.
+Case and death data was smoothed using a 7 day simple moving average since the daily reports are quite noisy.
 ### Findings and comments
 
 <img align="center" src="img/COVID-cases-by-outbreak-groupings.png" width='1000' height='auto' ></img>
 
 This chart reveals a number of interesting patterns.
 
-> - The outbreak groupings are distinct. 
-> - While the spring outbreak was occurring, infection rate was surprisingly uniform among the other groups.
-> - The summer outbreak ramped up quickly. The fall outbreak group and no outbreak group maintained comparable infection rates even as the the rates crept up (perhaps due to states easing restrictions en masse). The reported infection rate for the summer outbreak group suprassed that of the spring outbreak. This could be explained in part by increased testing.
-> - The fall outbreak ramped up quickly as well. It appears to be headed towards a higher peak than either of the two previous outbreaks. Fortunately, this outbreak is affecting a much smaller portion of the US population than the previous two at this time.
+> - While the *spring outbreak* was occurring, infection rate was surprisingly uniform among the other groups.
+> - The *summer outbreak* ramped up quickly. The *fall outbreak* group and *no outbreak* group maintained comparable infection rates even as the the rates crept up (perhaps due to states easing restrictions en masse). The reported infection rate for the *summer outbreak* group suprassed that of the *spring outbreak*. This could be explained in part by increased testing.
+> - The *fall outbreak* ramped up quickly as well. It appears to be headed towards a higher peak than either of the two previous outbreaks. Fortunately, this outbreak is affecting a much smaller portion of the US population than the previous two at this time.
+> - The rapid ramp-ups of the summer and fall outbreaks suggest an early warning system may be necessary to *see* an emerging outbreak before its too late. By the time the trends start to change in the case rate data it may be too late to avoid an outbreak. 
 
 <img align="center" src="img/COVID-deaths-by-outbreak-groupings.png" width='1000' height='auto' ></img>
 
 Deaths are the most important measure of severity of the outbreak.
 
-> - Deaths per 100,000 was much smaller for the second outbreak than the first.
+> - The impact of the outbreaks are clearly visible in the charts. The difference between baseline and an outbreak over time is the direct cost of an outbreak in terms of lives lost. The spring and summer outbreaks led to tens of thousands of extra deaths each.
+> - *Deaths per 100,000* was much smaller for the second outbreak than the first.
 > - It's too early to say what the death rate will look like for the third outbreak. Recent news reports--which are not yet reflected in the data--suggest the death rate may end up being worse. Over the past several days, the Dakotas reported death rates exceeding 0.5 people per 100,000.
 
 <img align="center" src="img/COVID-case-fatality-by-outbreak-groupings.png" width='1000' height='auto' ></img>
@@ -76,11 +77,16 @@ What are the takeaways from this chart?
 
 Masks are touted as an easy preventative measure. The Imperial College of London in conjunction with YouGov Plc have been conducting an ongoing large-scale global study of how people are responding to the COVID-19 situation. They have conducted more than 30,000 surveys in the US alone. Among other things, these surveys collect data on self-reported mask usage. The state groupings that were applied above were used to group the mask survey data.
 
-> - People surveyed in the spring outbreak states reported the highest level of mask usage across all months. 
-> - People surveyed in the summer outbreak states and no outbreak states reported very similar mask usage over time.
+> - People surveyed in the *spring outbreak* states reported the highest level of mask usage across all months. 
+> - People surveyed in the *summer outbreak* states and *no outbreak* states reported very similar mask usage over time.
+> - The *fall outbreak* group had the lowest self-reported level of mask usage of any group for all time periods. 
 
 ### Areas for further study
-- 
+
+- Describe and then model an *early warning system* that could identify when the infection rate for a region such as a state is threatening to become an outbreak.
+- Analyze data from other regions of the world that have seen outbreaks with similar timing such as Europe.
+- Analyze other behavioral attributes such as mobility.
+- Develop a predictive model using the features of baseline infection rate, timing, geographic proximity to other outbreak locations, mask usage, mobility.
 
 ## HIV prevalence/COVID-19 incidence comparison
 
