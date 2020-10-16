@@ -1,6 +1,6 @@
-# covid-hiv-geographic-analysis
+# covid-19-geographic-analysis
 
-<img align="right" src="img/prediction-scatterplot.png" width='500' height='auto' ></img>
+<img align="right" src="img/COVID-cases-by-outbreak-groupings.png" width='500' height='auto' ></img>
 
 ## Overview
 This repo is an ongoing project to explore the geographic patterns in the COVID-19 pandemic with particular focus on the US. The goal is to identify meaningful observations that could potentially be used by entities that are seeking to control and/or respond to the crisis.
@@ -22,7 +22,32 @@ The goals of this project are
 - **Techniques**
 > - Supervised learning model development, spatial mapping, simple moving average
 
-## COVID-19 trends
+## COVID-19 trend analysis
+
+### Data and EDA
+Data for the COVID-19 trend analysis was obtained from the following sources:
+- [the COVID Tracking Project](https://www.covidtrackingproject.com), Creative Commons CC BY 4.0 license
+- Jones, Sarah P., Imperial College London Big Data Analytical Unit and YouGov Plc. 2020, Imperial College London YouGov Covid Data Hub, v1.0, YouGov Plc, April 2020
+For the US data, state groupings were created for outbreaks of similar scale and timeframe. States were grouped into one of four categories:
+- Spring outbreak
+ -- Occurred primarily in the northeast, Michigan, and Louisiana
+ -- Exceeded 40 cases per 100,000 per day or 0.8 deaths per 100,000 per day before May
+- Summer outbreak
+ -- Occurred primarily in the southeast and Arizona
+ -- Exceeded 40 cases per 100,000 per day or 0.5 deaths per 100,000 per day between June and August
+- Fall outbreak
+ -- Upper midwest and Arkansas at this time with more states to be added if they meet the threshholds
+ -- Exceeded 40 cases per 100,000 per day or 0.5 deaths per 100,000 per day after August
+- No outbreak
+ -- Avoided classification in one of the other outbreak categories
+ 
+### Findings and comments
+
+<img align="center" src="img/COVID-cases-by-outbreak-groupings.png" width='1000' height='auto' ></img>
+<img align="center" src="img/COVID-deaths-by-outbreak-groupings.png" width='1000' height='auto' ></img>
+<img align="center" src="img/COVID-case-fatality-by-outbreak-groupings.png" width='1000' height='auto' ></img>
+<img align="center" src="img/self-reported-mask-usage.png" width='1000' height='auto' ></img>
+
 
 ## HIV prevalence/COVID-19 incidence comparison
 
