@@ -5,14 +5,13 @@
 ## Overview
 This repo is an ongoing project to explore the geographic patterns in the COVID-19 pandemic with particular focus on the US. The goal is to identify meaningful observations that could potentially be used by entities that are seeking to control and/or respond to the crisis.
 
-This is an ongoing project. New information will be added soon. Please recognize that the ideas and reasearch in this repo are a work in process.
+This is an ongoing project that began in mid August 2020. New information will be added soon. Please recognize that the ideas and reasearch in this repo are a work in process. Back in August, the analysis focused on comparing the geographic distribution of HIV to the geographic distribution of COVID-19 since the distributions were similar at that time. These results were kept in the Github repo as a timepoint reference even though the geographic distribution of COVID-19 has since evolved.
 
 ## Goals
 
-The goals of this project are
-> - To look for meaningful patterns in the geogrpahic progression of the COVID-19 pandemic, especially in the US
+The goals of this project are:
+> - To look for meaningful patterns in the geogrpahic progression of the COVID-19 pandemic
 > - To work with various EDA and data visualization tools and techniques
-> - This project began in mid August. An early goal was to compare the geographic distribution of HIV to the geographic distribution of COVID-19 at that time since the distributions were similar. At this time, COVID-19 had eased up in the northeast and was in the midst of a peak in the southeast, which is one of the primary areas where HIV is most prevalent. These results were kept in the Github repo as a timepoint reference even though the geographic distribution of COVID-19 has since evolved.
 
 ## Tools and techniques used in this project
 - **Tools**
@@ -45,7 +44,7 @@ For the US data, state groupings were created for outbreaks of similar scale and
 > - Avoided classification in one of the other outbreak categories
 > - About 160M people are in this group
 
-Case and death data was smoothed using a 7 day simple moving average since the daily reports are quite noisy.
+Case and death data was smoothed using a 14 day simple moving average since the daily reports are quite noisy.
 ### Findings and comments
 
 <img align="center" src="img/COVID-cases-by-outbreak-groupings.png" width='1000' height='auto' ></img>
