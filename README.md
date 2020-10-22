@@ -51,8 +51,8 @@ Case and death data was smoothed using a 14 day simple moving average since the 
 
 This chart reveals a number of interesting patterns.
 
-> - While the *spring outbreak* was occurring, infection rate was surprisingly uniform among the other groups.
-> - The *summer outbreak* ramped up quickly. The *fall outbreak* group and *no outbreak* group maintained comparable infection rates even as the the rates crept up (perhaps due to states easing restrictions en masse). The reported infection rate for the *summer outbreak* group suprassed that of the *spring outbreak*. This could be explained in part by increased testing.
+> - While the *spring outbreak* was occurring, the infection rate was surprisingly uniform among the other groups.
+> - The *summer outbreak* emerged quickly. The *fall outbreak* group and *no outbreak* group maintained comparable infection rates even as the the rates crept up (perhaps due to states easing restrictions en masse). The reported infection rate for the *summer outbreak* group suprassed that of the *spring outbreak*. This could be explained in part by increased testing.
 > - The *fall outbreak* ramped up quickly as well. It appears to be headed towards a higher peak than either of the two previous outbreaks. Fortunately, this outbreak is affecting a much smaller portion of the US population than the previous two at this time.
 > - The rapid ramp-ups of the summer and fall outbreaks suggest an early warning system may be necessary to *see* an emerging outbreak before its too late. By the time the trends start to change in the case rate data it may be too late to avoid an outbreak. 
 
@@ -60,17 +60,18 @@ This chart reveals a number of interesting patterns.
 
 Deaths are the most important measure of severity of the outbreak.
 
-> - The impact of the outbreaks are clearly visible in the charts. The difference between baseline and an outbreak over time is the direct cost of an outbreak in terms of lives lost. The spring and summer outbreaks led to tens of thousands of extra deaths each.
+> - The impact of the outbreaks are clearly visible in the charts. The shaded area in the chart above represents the cost in terms of lives lost from the summer outbreak. This outbreak led to an additional 23,000 lives lost as compared to baseline. 
+> - Governments and public health agencies are unlikely to drive the death rate down to zero until a vaccine is available, but they can work to avoid an outbreak to avoid the associated costs of lives lost.
 > - *Deaths per 100,000* was much smaller for the second outbreak than the first.
 > - It's too early to say what the death rate will look like for the third outbreak. Recent news reports--which are not yet reflected in the data--suggest the death rate may end up being worse. Over the past several days, the Dakotas reported death rates exceeding 0.5 people per 100,000.
 
 <img align="center" src="img/COVID-case-fatality-by-outbreak-groupings.png" width='1000' height='auto' ></img>
 
-The reported death time series was shifted forward by 14 days to synchronize up better with the case time series so that an accurate case fatality ratio could be calculated.
+Note that the reported death time series was shifted forward by 14 days to synchronize up better with the case time series so that an accurate case fatality ratio could be calculated.
 What are the takeaways from this chart?
 
 > - The case fatality ratio has been reduced significantly from the early days of the pandemic. This can probably be attributed to several factors. For one, much more testing is being done, so fewer cases are being missed. For two, the medical community knows much more about how to care for patients with the disease, which has probably led to better outcomes. 
-> - The case fatality ration hasn't seen marked changes since the numbers settled down as we entered the summer months. There's no strong indication that summer's crowded hospitals had a major impact on case fatality--at least in this slice of the data.
+> - The case fatality ratio crept up a bit for the summer outbreak group, but otherwise hasn't seen marked changes after spring ended. There's no strong indication that summer's crowded hospitals had a major impact on case fatality--at least in this slice of the data.
 
 <img align="center" src="img/self-reported-mask-usage.png" width='1000' height='auto' ></img>
 
